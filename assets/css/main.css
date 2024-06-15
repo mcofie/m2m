@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Work Sans", sans-serif !important;
+}
+
+
+h1, h2, h3, h4, h5, h6, .alt-font {
+    font-family: "Finger Paint", sans-serif !important;
+    font-weight: bolder;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #header_text {
+        font-size: 2.8rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #header_text {
+        font-size: 4.5rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #header_text {
+        font-size: 7rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #header_text {
+        font-size: 8rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #header_text {
+        font-size: 11rem;
+    }
+
+}
